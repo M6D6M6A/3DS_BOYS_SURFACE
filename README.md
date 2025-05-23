@@ -56,8 +56,6 @@ boys_surface_repo/
     cd boys_surface
     ```
 
-````
-
 2. **Open the script in Max**
    `Scripting ▸ Open Script…` → `boy_surface/boy_surface.py`
 
@@ -119,4 +117,3 @@ Thin‑Walled.................. ON
 **Creative Commons – CC BY-NC 4.0**
 © 2025 **Philipp Reuter** ([reuter.philipp@ymail.com](mailto:reuter.philipp@ymail.com)) & **ChatGPT (o3)**.
 Commercial use? → get in touch.
-````
