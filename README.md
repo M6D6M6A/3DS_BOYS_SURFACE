@@ -1,11 +1,3 @@
-Here’s a polished README that
-
--   follows GitHub’s best-practice structure (logo ➜ badges ➜ TL;DR ➜ install ➜ usage),
--   includes quick GIF links for newcomers,
--   clarifies the “one-knob” idea with examples, and
--   makes all links and paths consistent with the folders you scaffolded.
-
-```markdown
 # 3ds Max Boy’s-Surface Generator 🌀
 
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY–NC%204.0-lightgrey.svg)](LICENSE.md)
