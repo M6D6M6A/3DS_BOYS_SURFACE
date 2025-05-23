@@ -21,29 +21,40 @@
 
 ---
 
-## 🗂 Folder layout
+## 🗂 Folder layout (what’s in here and why?)
+
 ```
-
 boys_surface_repo/
-├─ boy_surface/ ← Python package
-│ ├─ **init**.py (empty stub)
-│ └─ boy_surface.py (⚠️ drop the code here)
-├─ images/
-│ └─ demo_rendering.png (replace with your own hero render)
-├─ docs/ (optional extra PDFs / notebooks)
-├─ LICENSE.md
-└─ README.md
-
-````
+│
+│  .gitignore           ← keeps temporary / IDE files out of Git
+│  LICENSE.md           ← CC BY-NC 4.0 terms (read this before commercial use)
+│  README.md            ← you are here
+│
+├─ boy_surface/         ← “engine room” – the Python that builds the mesh
+│   ├─ __init__.py      (makes the folder importable; no need to open)
+│   └─ boy_surface.py   ← run this in 3ds Max to create the surface
+│
+├─ demo/                ← ready-made sample assets
+│   ├─ Boy_s Surface8.max       ← sample .max scene with the mesh loaded
+│   ├─ boys_demo.png            ← hero render used in the README
+│   ├─ boys_demo.exr            ← full-float version (for compositing tests)
+│   ├─ boys_demo_2.png          ← alt lighting/render example
+│   └─ boys_demo_2.exr          ← full-float of the alt render
+│
+└─ docs/                ← extra reading
+    └─ README_docs.md   (placeholder – drop technical notes or PDFs here)
+```
 
 ---
 
 ## 🚀 Quick start
 
 1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-user/boys_surface.git
-   cd boys_surface
+    ```bash
+    git clone https://github.com/your-user/boys_surface.git
+    cd boys_surface
+    ```
+
 ````
 
 2. **Open the script in Max**
@@ -107,3 +118,4 @@ Thin‑Walled.................. ON
 **Creative Commons – CC BY-NC 4.0**
 © 2025 **Philipp Reuter** ([reuter.philipp@ymail.com](mailto:reuter.philipp@ymail.com)) & **ChatGPT (o3)**.
 Commercial use? → get in touch.
+````
