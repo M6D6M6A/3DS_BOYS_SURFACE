@@ -1,8 +1,8 @@
-# 3ds Max Boy’s-Surface Generator 🌀
+# 3Ds Max Boy’s-Surface Generator
 
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY–NC%204.0-lightgrey.svg)](LICENSE.md)
 
-<img alt="Demo render" src="images/demo_rendering.png" width="640">
+![Demo Rendering](demo/boys_demo.png)
 
 > **One line of Python → a watertight, Möbius-correct mesh of the real projective plane**  
 > Built for Autodesk **3ds Max 2025+** (Python 3.11, NumPy, Arnold).
