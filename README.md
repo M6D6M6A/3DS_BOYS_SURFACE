@@ -1,15 +1,16 @@
-# 3Ds Max Boy’s-Surface Generator
+# 3ds Max Boy’s-Surface Generator
 
 [![CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY–NC%204.0-lightgrey.svg)](LICENSE.md)
 
 ![Demo Rendering](demo/boys_demo.png)
+> **No post-processing was used!**
 
 > **One line of Python → a watertight, Möbius-correct mesh of the real projective plane**  
 > Built for Autodesk **3ds Max 2025+** (Python 3.11, NumPy, Arnold).
 
 ---
 
-## ✨ Features
+## Features
 
 | What                         | Why it matters                                                                  |
 | ---------------------------- | ------------------------------------------------------------------------------- |
@@ -21,7 +22,7 @@
 
 ---
 
-## 🗂 Folder layout (what’s in here and why?)
+## Folder layout (what’s in here and why?)
 
 ```
 boys_surface_repo/
@@ -47,7 +48,7 @@ boys_surface_repo/
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 1. **Clone the repo**
     ```bash
@@ -76,7 +77,7 @@ A new mesh called **Boy's Surface** appears at the origin, ready for materials.
 
 ---
 
-## ⚙️ Script parameters
+## Script parameters
 
 | Parameter              | Type    | Default | What it does                                                            |
 | ---------------------- | ------- | ------- | ----------------------------------------------------------------------- |
@@ -85,7 +86,7 @@ A new mesh called **Boy's Surface** appears at the origin, ready for materials.
 
 ---
 
-## 🎨 Rendering guide (Arnold)
+## Rendering guide (Arnold)
 
 _[Autodesk’s official Thin‑Film “Soap Bubble” settings (2025 Help)](https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_standard_surface_ac_standard_thinfilm_html)_
 
@@ -104,7 +105,7 @@ Thin‑Walled.................. ON
 
 ---
 
-## 🤝 Acknowledgements
+## Acknowledgements
 
 -   **Sean / Inform Studio** – original Blender prototype
     [https://inform.studio/blog/rendering-boys-surface-in-blender/](https://inform.studio/blog/rendering-boys-surface-in-blender/)
@@ -113,7 +114,7 @@ Thin‑Walled.................. ON
 
 ---
 
-## 📜 License
+## License
 
 **Creative Commons – CC BY-NC 4.0**
 © 2025 **Philipp Reuter** ([reuter.philipp@ymail.com](mailto:reuter.philipp@ymail.com)) & **ChatGPT (o3)**.
